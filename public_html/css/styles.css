@@ -1,0 +1,17 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+.cabecera img {
+  width: 100%; }
+
+.parrafo {
+  width: 80%; }
+  .parrafo .izquierda {
+    width: 60%;
+    float: left; }
+    .parrafo .izquierda img {
+      width: 38%;
+      float: left; }
+
+/*# sourceMappingURL=styles.css.map */
