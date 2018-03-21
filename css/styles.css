@@ -1,0 +1,127 @@
+a:link {
+  text-decoration: none;
+  color: white; }
+
+a:visited {
+  text-decoration: none;
+  color: white; }
+
+.menu_superior:hover {
+  background-color: #ebebeb;
+  color: black; }
+
+* {
+  padding: 0px;
+  margin: 0px; }
+
+li {
+  list-style: none; }
+
+body {
+  background-color: #ebebeb; }
+
+header {
+  background-color: black; }
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px; }
+  nav ul {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row; }
+    nav ul li {
+      height: 50px;
+      width: 20%;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+header .cabecera {
+  width: 100%;
+  max-height: 150px; }
+
+.p_menu {
+  margin-bottom: 0px; }
+
+.banner {
+  height: 280px;
+  width: 100%;
+  background-color: white; }
+  .banner img {
+    width: 100%;
+    float: left; }
+  .banner .flecha img {
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: 125px; }
+  .banner .flecha img[src*='left'] {
+    float: left;
+    margin-left: 25px; }
+  .banner .flecha img[src*='rigth'] {
+    float: right;
+    margin-right: 25px; }
+
+.imagenes {
+  max-width: 900px;
+  margin: 0px auto; }
+
+main {
+  max-width: 900px;
+  margin: 25px auto; }
+
+.parrafo {
+  width: 100%;
+  padding: 25px;
+  background-color: white; }
+
+.primer img {
+  width: 40%;
+  float: left;
+  margin-right: 25px; }
+
+.segundo img {
+  width: 40%;
+  float: right;
+  margin-left: 25px; }
+
+footer {
+  color: white;
+  background-color: black; }
+  footer .redes_sociales {
+    font-size: 1.5em;
+    max-width: 900px;
+    margin: 0px auto;
+    height: 40px; }
+    footer .redes_sociales img {
+      width: 40px;
+      float: right; }
+  footer .secciones {
+    width: 100%;
+    margin: 0px auto;
+    position: absolute;
+    background-color: black;
+    padding-bottom: 25px; }
+    footer .secciones .distribuido {
+      max-width: 900px;
+      margin: 0px auto; }
+      footer .secciones .distribuido .seccion {
+        /* width: 33.33%;
+        float: left; */ }
+        footer .secciones .distribuido .seccion ul li {
+          font-size: 1em;
+          padding: 0px 5px; }
+        footer .secciones .distribuido .seccion ul ul li {
+          font-size: 0.7em;
+          padding: 0px 5px; }
+
+/*# sourceMappingURL=styles.css.map */
