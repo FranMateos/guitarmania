@@ -1,30 +1,8 @@
-https://franmateos.github.io/guitarmania
+#Página web Guitarmania
 
-Esto es un párrafo.
+Dirección de la página Web de **Github pages**
 
-Esto es otro párrafo.
-
-Esto es un párrafo.
-
-Esto es otro párrafo.
-Texto en cursiva o negrita
-
-Usa uno o dos asteriscos para texto en cursiva o negrita, respectivamente. También se puede usar el guión bajo (_).
-
-*Esto en cursiva,* **y esto en negrita,** ***¡y los dos juntos!***
-
-_Esto en cursiva,_ __y esto en negrita,__ ___¡y los dos juntos!___
-
-Esto en cursiva, y esto en negrita, ¡y los dos juntos!
-
-Esto en cursiva, y esto en negrita, ¡y los dos juntos!
-Cabeceras
-
-Usa la tecla de número (#) para definir cabeceras. Se pueden usar una a seis teclas, dependiendo de la estructura del texto (más teclas → menos importante). Corresponden con los elementos <h1> a <h6> en HTML.
-
-# 1. ¿Qué es Markdown?
-## 1.1 Markdown es fácil de leer.
-### 1.1.1 Markdown no requiere un programa como Word. 
+*[Enlace a la web]*(https://franmateos.github.io/guitarmania)
 
 1. ¿Qué es Markdown?
 1.1 Markdown es fácil de leer.
