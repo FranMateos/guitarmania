@@ -2,24 +2,7 @@
 
 Dirección de la página Web de **Github pages**
 
-*[Enlace a la web]*(https://franmateos.github.io/guitarmania)
-
-1. ¿Qué es Markdown?
-1.1 Markdown es fácil de leer.
-1.1.1 Markdown no requiere un programa como Word.
-Código
-
-Muy útil para nuestro proyecto. Para usar código en un párrafo, usa el tilde (`). Para crear un code block, escribe cuatro espacios ( ) antes de la linea
-
-Aquí tenemos un `code` en un párrafo. 
-    
-    **Ejemplo de un code block en Markdown**
-
-Aquí tenemos un code en un párrafo.
-
-**Ejemplo de un code block en Markdown**
-
-Enlaces
+[Enlace a la web](https://franmateos.github.io/guitarmania)
 
 Para crear un enlace, encierra el texto del enlace en paréntesis rectangulares ([ ]) y el URL en paréntesis (( )).
 
