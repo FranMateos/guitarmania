@@ -21,50 +21,68 @@
                 <li class="menu_superior"><a href="login.html" name="url_novedades"><p class="p_menu">Login</p></a></li>
             </ul>
         </nav>
-        <div class="banner">
-            <a href="#" class="flecha"><img src="./images/left_arrow.png"/></a>
-            <a href="#" class="flecha"><img src="./images/rigth_arrow.png"/></a>
-            <div class="imagenes banner row">
-            <a href="#" class="four columns"><img src="./images/acustica.jpg"/></a>
-            <a href="#" class="four columns"><img src="./images/guitarra.gif"/></a>
-            <a href="#" class="four columns"><img src="./images/accesorios.jpg"/></a>
-            </div>
-        </div>
         <main>
             <div class="main row">
-                <div class="primer parrafo">
-                    <p>
-                        <img src="./images/marshal.gif"/>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec,
-                        mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed
-                        eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit
-                        amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu
-                        diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo
-                        hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit
-                        amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare
-                        accumsan, blandit sed diam.
-
-                    </p>
-                </div>
-                <div class="segundo parrafo">
-                    <p>
-                        <img src="./images/principal2.jpg"/>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec,
-                        mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed
-                        eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris
-                        sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, 
-                        vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec
-                        vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                        Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris,
-                        malesuada quis ornare accumsan, blandit sed diam.
-                    </p>
+                <div class="formulario registro">
+                    <h2>Formulario de registro</h2>
+                    <form action="login.html" method="POST" id="formulario_contacto">
+                        <label>Nombre y apellidos: * 
+                            <input id="nombre" type="text" required="required" placeholder="Nombre y apellidos"/>
+                        </label>
+                        <label>Correo electrónico: *
+                            <input id="correo" type="text" required="required" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="El email no tiene un formato correcto"/>
+                        </label>
+                        <label>Contraseña de acceso: *
+                            <input id="contrasenia" type="password" required="required" placeholder="Contraseña" pattern="[0-9a-zA-Z._%+-]{8,}" title="La contraseña debe tener al menos 8 caracteres o símbolos"/>
+                        </label>
+                        <label>Repetir contraseña: *
+                            <input id="rep_contrasenia" type="password" required="required" placeholder="Repetir contraseña" pattern="[0-9a-zA-Z._%+-]{8,}"  title="La contraseña debe tener al menos 8 caracteres o símbolos"/>
+                        </label>
+                        <label>Sexo: 
+                            <input type="radio" name="genero" id="genero" value="hombre"/> Hombre
+                            <input type="radio" name="genero" id="genero" value="mujer"/> Mujer
+                            <input type="radio" name="genero" id="genero" value="otro"/> Otro
+                        </label>
+                        <label>Fecha de nacimiento: 
+                            <input type="date" id="fecha" placeholder="dd/mm/aaaa" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}"/>
+                        </label>
+                        <label>Dirección: 
+                            <input type="text" id="direccion" placeholder="Dirección"/>
+                        </label>
+                        <label>País: 
+                            <select id="pais">
+                                <option value="España">España</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Suiza">Suiza</option>
+                            </select>
+                        </label>
+                        <label>Número de tarjeta de crédito 
+                            <input type="number" style="display: none;" id="tarjeta" pattern="[0-9]{10,}" placeholder="Número tarjeta"/>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="revista"/>
+                            ¿Desea recibir la publicación mensual de nuestra revista?
+                        </label>
+                        <label>
+                            <input type="checkbox" id="terminos" required="required"/>
+                            ¿Acepta los términos y políticas de uso? *
+                        </label>
+                        <p>
+                            <input type="submit" value="Enviar" id="enviar"/>
+                            <input type="button" value="Cancelar" id="cancelar"/>
+                        </p>
+                    </form>
                 </div>
             </div>
         </main>
         <footer>
             <div class="redes_sociales">
-                <a href="https://es-es.facebook.com/" target="_blank"><img src="./images/facebook.png"/></a>
-                <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png"/></a>
+                <a href="https://es-es.facebook.com/" target="_blank">
+                    <img src="./images/facebook.png"/>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <img src="./images/twitter.png"/>
+                </a>
                 <p>Síguenos en</p>
             </div>
             <div class="secciones">
@@ -117,5 +135,7 @@
             </div>
         </footer>
     </body>
-    <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/validarformulario.js"></script>
 </html>
+
